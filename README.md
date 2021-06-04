@@ -48,3 +48,5 @@ I recommend:
   " toggle the terminal
   Plug 'akinsho/nvim-toggleterm.lua'
 ```
+
+* tested on Centos 8
