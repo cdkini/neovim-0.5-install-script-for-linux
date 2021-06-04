@@ -1,10 +1,7 @@
 #!/bin/bash
 
-# Install Neovim 0.5 nightly Linux appimage with:
-#   - Gnome Desktop integration
-#   - Vimplug ready to add plugins
-#   - Visual Studio Code theme with treesitter support
-#   - bat and ripgrep binaries for enhanced functionality in fzf.vim plugin
+# https://github.com/David-Else/neovim-0.5-install-script-for-linux
+# https://www.elsewebdevelopment.com/
 
 hash nvim 2>/dev/null &&
     {
@@ -115,7 +112,3 @@ ln -s $CONFIG_DIR/plugged/fzf/bin/fzf $HOME/bin
 To setup the LSP follow instructions at https://github.com/neovim/nvim-lspconfig
 ================================================================================
 EOL
-
-# cat >>"$HOME/.bashrc" <<EOL
-# export BAT_THEME="Visual Studio Dark+"
-# EOL
