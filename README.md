@@ -15,6 +15,8 @@ A minimal install script to get the beginner with the sense to be using Linux up
 
 Now you are ready to enter the wonderful world of Neovim without having to waste any time figuring out how to get all the files and directories configured when using the appimage.
 
+## Plugin recommendations
+
 For a comprehensive list of plugins check out https://github.com/rockerBOO/awesome-neovim
 
 I recommend:
@@ -24,13 +26,17 @@ I recommend:
   Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
   Plug 'nvim-treesitter/nvim-treesitter-textobjects'
   Plug 'neovim/nvim-lspconfig'
+
   " auto completion and LSP codeAction alert
   Plug 'hrsh7th/nvim-compe'
   Plug 'kosayoda/nvim-lightbulb'
+
   " preview markdown in web browser using pandoc
   Plug 'davidgranstrom/nvim-markdown-preview'
+
   " zen mode
   Plug 'folke/zen-mode.nvim'
+
   " toggle the terminal
   Plug 'akinsho/nvim-toggleterm.lua'
 ```
