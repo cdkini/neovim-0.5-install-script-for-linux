@@ -51,6 +51,7 @@ hash bat 2>/dev/null ||
     {
         curl -LOf $BAT_LOCATION$BAT_FILENAME
         sudo tar -C $INSTALL_DIR/ -xf $BAT_FILENAME --no-anchored 'bat' --strip=1
+        rm $BAT_FILENAME
     }
 
 # Add alias to use Visual Studio Code theme in bat, at least v0.18.1 required
@@ -63,6 +64,7 @@ hash rg 2>/dev/null ||
     {
         curl -LOf $RIPGREP_LOCATION$RIPGREP_FILENAME
         sudo tar -C $INSTALL_DIR/ -xf $RIPGREP_FILENAME --no-anchored 'rg' --strip=1
+        rm $RIPGREP_FILENAME
     }
 
 # Create basic init.vim to install fzf
