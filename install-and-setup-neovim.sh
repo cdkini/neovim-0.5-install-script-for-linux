@@ -110,7 +110,7 @@ Use :Pluginstall to tell vimplug to install the plugins in your init.vim
 After the fzf plugin is installed you can symlink the binary for general use:
 
 mkdir -p "$HOME"/bin
-ln -s "$CONFIG_DIR"/plugged/fzf/bin/fzf "$HOME"/bin
+ln -s $CONFIG_DIR/plugged/fzf/bin/fzf $HOME/bin
 
 To setup the LSP follow instructions at https://github.com/neovim/nvim-lspconfig
 ================================================================================
