@@ -1,4 +1,4 @@
-# neovim-0.5-install-script-for-linux
+# Neovim 0.5 starter install script for linux
 
 ![Neovim logo](https://github.com/David-Else/neovim-0.5-install-script-for-linux/blob/main/nvim.png)
 
