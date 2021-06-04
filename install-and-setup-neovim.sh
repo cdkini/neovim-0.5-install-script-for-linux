@@ -14,9 +14,7 @@ hash nvim 2>/dev/null &&
 
 INSTALL_DIR=/usr/local/bin
 CONFIG_DIR=$HOME/.config/nvim
-LOCAL_SHARE_DIR=${XDG_DATA_HOME:-$HOME/.local/share}/nvim
 
-VIM_PLUG_URL=https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 CODEDARK_URL=https://raw.githubusercontent.com/tomasiser/vim-code-dark/master/colors/codedark.vim
 
 BAT_LOCATION=https://github.com/sharkdp/bat/releases/download/v0.18.1/
@@ -37,7 +35,7 @@ xdg-icon-resource install --novendor --mode user --size 64 nvim.png
 #==============================================================================
 # Install vimplug
 #==============================================================================
-curl -LOf "$LOCAL_SHARE_DIR"/site/autoload/plug.vim --create-dirs $VIM_PLUG_URL
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
 #==============================================================================
 # Install codedark theme (with treesitter support)
