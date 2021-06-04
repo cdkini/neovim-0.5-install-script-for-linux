@@ -4,6 +4,14 @@
 
 A minimal install script to get the beginner with the sense to be using Linux up and running with the latest Neovim out of the box!
 
+## Installation
+
+```
+git clone https://github.com/David-Else/neovim-0.5-install-script-for-linux
+cd neovim-0.5-install-script-for-linux
+./install-and-setup-neovim.sh
+```
+
 ## Features:
 
 - Installs the latest appimage nightly version of Neovim
